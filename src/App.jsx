@@ -11,7 +11,7 @@ function App() {
   return (
    
       <div className='text-white md:flex-row  flex flex-col '>
-        <div> <Sidebar/></div>
+        <div className='mb-2 pb-2'> <Sidebar/></div>
         <div className='bg-slate-300 w-full'>
               hello
         </div>
