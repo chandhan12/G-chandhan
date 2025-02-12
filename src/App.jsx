@@ -10,8 +10,12 @@ function App() {
 
   return (
    
-      <div className='text-white'>
-        <Sidebar/>
+      <div className='text-white md:flex-row  flex flex-col '>
+        <div> <Sidebar/></div>
+        <div className='bg-slate-300 w-full'>
+              hello
+        </div>
+       
       
        </div>
    
