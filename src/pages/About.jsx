@@ -1,5 +1,6 @@
 import React from 'react'
 import Works from '../components/Works'
+import { CloudIcon, developmentIcon } from '../Icons/Icons'
 
 const About = () => {
   return (
@@ -18,10 +19,10 @@ const About = () => {
 
           <h2 className='text-4xl font-semibold text-white m-2 mb-4'>What I'm Doing</h2>
         <div className='h-1 w-20 m-2 mt-5 rounded-2xl bg-yellow-500'></div>
-        <div className='grid md:grid-cols-2'>
-          <Works icon="&" title="Front end" decription="Building responsive, user-friendly interfaces using modern frameworks and technologies."/>
-          <Works icon="&" title="Front end" decription="Building responsive, user-friendly interfaces using modern frameworks and technologies."/>
-          <Works icon="&" title="Front end" decription="Building responsive, user-friendly interfaces using modern frameworks and technologies."/>
+        <div className='grid md:grid-cols-2 p-3'>
+          <Works icon={developmentIcon} title="Frontend Development" decription="Building responsive, user-friendly interfaces using modern frameworks and technologies."/>
+          <Works icon={developmentIcon} title="Backend Development" decription="Creatingscalable backends with Node.js, Express.js, and MongoDB, focusing on performance and efficiency"/>
+          <Works icon={CloudIcon} title="Cloud / Devops (Learning)" decription="Building responsive, user-friendly interfaces using modern frameworks and technologies."/>
           
         </div>
         
