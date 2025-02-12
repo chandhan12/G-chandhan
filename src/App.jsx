@@ -1,23 +1,28 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import Sidebar from './components/Sidebar'
+
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import Layout from './components/Layout'
+import About from './pages/About'
+import Resume from './pages/Resume'
+import Projects from './pages/Projects'
+import Contact from './pages/Contact'
 
 
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
    
-      <div className='text-white md:flex-row  flex flex-col '>
-        <div className='mb-2 pb-2'> <Sidebar/></div>
-        <div className='bg-slate-300 w-full'>
-              hello
-        </div>
-       
       
-       </div>
+      <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Layout/>}>
+        <Route path='/' element={<About/>}  />
+        <Route path='/Resume' element={<Resume/>}  />
+        <Route path='/projects' element={<Projects/>}  />
+        <Route path='/contact' element={<Contact/>}  />
+        </Route>
+      </Routes>
+      </BrowserRouter>
    
   )
 }

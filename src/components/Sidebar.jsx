@@ -22,7 +22,7 @@ const Sidebar = () => {
      <SidebarItem icon={locationIcon} text="Bengaluru,Karnataka"/>
      </div>
      <div className='separator'></div>
-     <div className='flex p-2  '>
+     <div className='flex p-2 flex-wrap '>
         <div className='bg-slate-700 rounded-xl p-2 m-2'>
         <a target="_blank" className=" hover:text-yellow-500 transition-colors mb-2" href="https://www.linkedin.com/in/g-chandhan-aa4478255/">{LinkedinIcon}</a>
         </div>
