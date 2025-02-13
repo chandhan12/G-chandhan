@@ -22,7 +22,7 @@ const About = () => {
         <div className='grid md:grid-cols-2 p-3'>
           <Works icon={developmentIcon} title="Frontend Development" decription="Building responsive, user-friendly interfaces using modern frameworks and technologies."/>
           <Works icon={developmentIcon} title="Backend Development" decription="Creatingscalable backends with Node.js, Express.js, and MongoDB, focusing on performance and efficiency"/>
-          <Works icon={CloudIcon} title="Cloud / Devops (Learning)" decription="Building responsive, user-friendly interfaces using modern frameworks and technologies."/>
+          <Works icon={CloudIcon} title="Cloud / Devops (Learning)" decription="I’m learning cloud technologies and DevOps practices to streamline app deployment and automation."/>
           
         </div>
         

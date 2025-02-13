@@ -7,7 +7,7 @@ import SidebarItem from './sidebarItem'
 
 const Sidebar = () => {
   return (
-    <div className=' md:h-screen h-auto pb-4 md:w-72 w-full bg-slate-800 rounded-2xl flex flex-col items-center '>
+    <div className=' md:h-full h-auto pb-4 md:w-72 w-full bg-slate-800 rounded-2xl flex flex-col items-center '>
      <div className='m-2 p-2  h-auto  mt-10 flex md:flex-col justify-center' >
         <img src={profilepic} alt="" className='md:h-48 md:w-48 h-24 w-24 rounded-3xl'/>
         <div className='md:flex flex flex-col '>
