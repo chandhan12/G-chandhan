@@ -1,6 +1,7 @@
 import React from 'react'
 import { bookIcon, pointIcon } from '../Icons/Icons'
 import EducationCard from '../components/EducationCard'
+import SkillsCard from '../components/SkillsCard'
 
 const Resume = () => {
   return (
@@ -20,8 +21,12 @@ const Resume = () => {
     </div>
     <h2 className='text-2xl font-semibold text-white m-2 mb-4'>My Skills</h2>
    
-    <div className='bg-slate-700 h-96 w-full rounded-xl mt-2'>
-
+    <div className='bg-slate-700 h-auto pb-2 w-full rounded-xl mt-2'>
+      <SkillsCard title="Languages" skills={["JavaScript","Python","TypeScript"]}  />
+      <SkillsCard title="Frontend" skills={["React.js","Next.js","Tailwind Css","Recoil"]}  />
+      <SkillsCard title="Backend" skills={["Node.js","Express.js","Next.js","RestAPIs","Websockets"]}  />
+      <SkillsCard title="Database" skills={["PostgreSQL","MongoDB",,"MySQL"]}  />
+      <SkillsCard title="Tools & Technologies" skills={["Git","GitHub","AWS","Postman"]}  />
     </div>
     </div>
   )
