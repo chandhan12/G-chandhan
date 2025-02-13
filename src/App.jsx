@@ -5,6 +5,7 @@ import About from './pages/About'
 import Resume from './pages/Resume'
 import Projects from './pages/Projects'
 import Contact from './pages/Contact'
+import { ProjectContextProvider } from './components/ProjectContextProvider'
 
 
 function App() {
@@ -15,10 +16,10 @@ function App() {
       
       <BrowserRouter>
       <Routes>
-        <Route path='/' element={<Layout/>}>
+        <Route path='/' element={<ProjectContextProvider><Layout/></ProjectContextProvider> }>
         <Route path='/' element={<About/>}  />
         <Route path='/Resume' element={<Resume/>}  />
-        <Route path='/projects' element={<Projects/>}  />
+        <Route path='/projects' element={<ProjectContextProvider><Projects/></ProjectContextProvider> }  />
         <Route path='/contact' element={<Contact/>}  />
         </Route>
       </Routes>
