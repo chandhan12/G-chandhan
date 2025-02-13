@@ -7,7 +7,7 @@ const EducationCard = (props) => {
     <div className='p-2 m-2 w-auto'>
         <div className='flex flex-col'>
           <div className='flex gap-8 items-center '>
-        <div className='bg-slate-700 h-4 w-4 flex justify-center items-center rounded-full'>{pointIcon}</div>
+        <div className='bg-stone-700 h-4 w-4 flex justify-center items-center rounded-full'>{pointIcon}</div>
           <div>
             <p>{college}</p>
             

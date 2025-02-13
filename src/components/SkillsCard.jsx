@@ -10,7 +10,7 @@ const SkillsCard = (props) => {
         {
             skills.map((eachItem)=>{
                 return(
-                    <div key={eachItem} className='bg-slate-100 w-auto  rounded-md p-2 h-9 flex justify-center items-center text-slate-800 text-base'>{eachItem}</div>
+                    <div key={eachItem} className='bg-stone-100 w-auto cursor-pointer  rounded-md p-2 h-9 flex justify-center items-center text-stone-800 text-base'>{eachItem}</div>
                 )
 
             })
