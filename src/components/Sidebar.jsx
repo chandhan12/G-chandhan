@@ -36,7 +36,7 @@ const Sidebar = () => {
         <a target="_blank" className=" hover:text-yellow-500 transition-colors mb-2" href="https://leetcode.com/u/Chandhan1-/">{leetcodeIcon}</a>
         </div>
         <div className='bg-stone-700 rounded-xl p-2 m-2 border-e-0 border-b-0 border border-l-amber-400  border-t-amber-400'>
-        <a target="_blank" className=" hover:text-yellow-500 transition-colors mb-2" href="/G chandhan Resume 3.pdf">{ResumeIcon}</a>
+        <a target="_blank" className=" hover:text-yellow-500 transition-colors mb-2" href="/G Chandhan Resume.pdf">{ResumeIcon}</a>
         </div>
      </div>
     </div>
