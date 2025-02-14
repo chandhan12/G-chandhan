@@ -26,7 +26,7 @@ const ProjectCard = (props) => {
         </div>
         <div className='flex'>
         <div className='bg-stone-800 cursor-pointer rounded-full p-2 m-2 h-8 w-8 md:h-9 md:w-9 hover:border-e-0 hover:border-b-0 hover:border hover:border-l-amber-400  hover:border-t-amber-400   '>
-        <a  target="_blank" className=" hover:text-yellow-500 transition-colors mb-2 text-center  " href={githubLink}>{liveLinkIcon}</a>
+        <a  target="_blank" className=" hover:text-yellow-500 transition-colors mb-2 text-center  " href={liveLink}>{liveLinkIcon}</a>
         </div>
         <div className='bg-stone-800 cursor-pointer rounded-full p-2 m-2 h-8 w-8 md:h-9 md:w-9 hover:border-e-0 hover:border-b-0 hover:border hover:border-l-amber-400  hover:border-t-amber-400    '>
         <a  target="_blank" className=" hover:text-yellow-500 transition-colors mb-2 text-center " href={githubLink}>{GithubIcon}</a>
