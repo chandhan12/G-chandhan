@@ -12,7 +12,7 @@ const Sidebar = () => {
         <img src={profilepic} alt="" className='md:h-48 md:w-48 h-24 w-24 rounded-3xl'/>
         <div className='md:flex flex flex-col '>
         <h2 className='md:text-2xl text-xl font-semibold m-2 p-2 text-stone-200'>G Chandhan</h2>
-        <p className='bg-stone-700 md:p-1 rounded-xl md:h-8 md:w-44 h-10 w-full p-2 ml-2 text-stone-300 md:text-md text-center '>Full Stack Developer</p>
+        <p className='bg-stone-700 md:p-1 rounded-xl md:h-8 md:w-44 h-10 w-full p-2 ml-2 cursor-pointer text-stone-300 md:text-md text-center '>Full Stack Developer</p>
         </div>
      </div>
      <p className='bg-stone-500 h-0.5 md:w-56 w-72 rounded-2xl'></p>
