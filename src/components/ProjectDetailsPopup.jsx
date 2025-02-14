@@ -133,11 +133,11 @@ const ProjectDetailsPopup = () => {
         <p className="text-stone-300  mt-3 ml-3 p-1">{project.description3}</p>
        <div className='flex justify-between mt-4'>
               <div className="bg-stone-600 h-8 w-24  rounded-xl hover:text-yellow-500 hover:border-b-0 hover:border hover:border-l-amber-400  hover:border-t-amber-400">
-                <a href={project.liveLink} className="hover:text-yellow-500"><div className="flex gap-1 p-1 justify-center items-center text-yellow-500  transition-colors "><p className="">{liveLinkIcon2}</p> <p>Live</p></div></a>
+                <a target="_blank" href={project.liveLink} className="hover:text-yellow-500"><div className="flex gap-1 p-1 justify-center items-center text-yellow-500  transition-colors "><p className="">{liveLinkIcon2}</p> <p>Live</p></div></a>
 
               </div>
               <div className="bg-stone-600 h-8 w-24 rounded-xl hover:text-yellow-500 hover:border-b-0 hover:border hover:border-l-amber-400  hover:border-t-amber-400">
-                <a href={project.githubLink} className="hover:text-yellow-500"><div className="flex gap-1 p-1 justify-center items-center text-yellow-500  transition-colors "><p className="">{GithubIcon}</p> <p>GitHub</p></div></a>
+                <a target="_blank" href={project.githubLink} className="hover:text-yellow-500"><div className="flex gap-1 p-1 justify-center items-center text-yellow-500  transition-colors "><p className="">{GithubIcon}</p> <p>GitHub</p></div></a>
 
               </div>
                

@@ -29,14 +29,14 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (validateForm()) {
-      // If form is valid, send the email
+    
       window.location.href = `mailto:${formData.email}?subject=Message from ${formData.name}&body=${formData.message}`;
     }
   };
 
   return (
     <div>
-       <div>
+       <div className="p-6">
       <h2 className='text-3xl font-semibold text-white m-2 mb-4'>Contact</h2>
       <div className='h-1 w-20 m-2 mt-5 rounded-2xl bg-yellow-500'></div>
       </div>
@@ -44,16 +44,11 @@ const Contact = () => {
      
 
         <form onSubmit={handleSubmit} className="space-y-4">
-          {/* Name Field */}
-          <div className="flex md:flex-row flex-col justify-start gap-6">
+          
+          <div className="flex lg:flex-row flex-col justify-start gap-6">
             <div className="flex flex-col"> 
-          <input
-              type="text"
-              name="name"
-              value={formData.name}
-              onChange={handleChange}
-              className="md:w-136 p-2 w-full bg-[rgba(69,69,69,0.6)] h-8 rounded-lg focus:ring-1 focus:ring-yellow-600 focus:outline-none"
-              placeholder="Full Name"
+          <input type="text" name="name" value={formData.name} onChange={handleChange} 
+          className="md:w-136 p-2 w-full bg-[rgba(69,69,69,0.6)] h-8 rounded-lg focus:ring-1 focus:ring-yellow-600 focus:outline-none" placeholder="Full Name"
             />
 
             {errors.name && <p className="text-red-500 text-sm m-2">{errors.name}</p>}
@@ -73,7 +68,7 @@ const Contact = () => {
             </div>
           </div>
 
-          {/* Message Field */}
+         
           <div>
             
             <textarea
@@ -87,7 +82,7 @@ const Contact = () => {
             {errors.message && <p className="text-red-500 text-sm">{errors.message}</p>}
           </div>
 
-          {/* Send Button */}
+          
           <button
             type="submit"
             className="block text-center text-md px-2 py-1 font-medium cursor-pointer h-auto w-auto  rounded-lg transition duration-300 bg-yellow-500 text-stone-700 hover:opacity-95 "
