@@ -22,7 +22,7 @@ const ProjectCard = (props) => {
       <p className='text-stone-300 text-base m-1'>{caption}</p>
       <div className='flex justify-between m-2 '>
         <div>
-        <button onClick={openPopUp} className='cursor-pointer h-8 w-15 mt-2  hover:border-e-0 hover:border-b-0 hover:border hover:border-l-amber-400  hover:border-t-amber-400  bg-stone-800 text-stone-300 hover:text-yellow-500 rounded-md'>open</button>
+        <button onClick={openPopUp} className='cursor-pointer h-8 w-15 mt-2  hover:border-e-0 hover:border-b-0 hover:border hover:border-l-amber-400  hover:border-t-amber-400  bg-stone-800 text-stone-300 hover:text-yellow-500 rounded-md'>Open</button>
         </div>
         <div className='flex'>
         <div className='bg-stone-800 cursor-pointer rounded-full p-2 m-2 h-8 w-8 md:h-9 md:w-9 hover:border-e-0 hover:border-b-0 hover:border hover:border-l-amber-400  hover:border-t-amber-400   '>

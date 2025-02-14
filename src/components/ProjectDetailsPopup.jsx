@@ -113,7 +113,7 @@ const ProjectDetailsPopup = () => {
   return (
     <div className="fixed inset-0 flex justify-center items-center bg-opacity-10 transition-all  duration-300 animate-fadeIn">
       
-      <div className="bg-stone-800 p-6 m-2 rounded-lg md:h-136 h-136  shadow-lg w-auto md:w-3xl overflow-auto  md:overflow-y-scroll no-scrollbar border border-stone-700 transform animate-scale-up transition-all duration-300">
+      <div className="bg-stone-800 p-6 m-2 rounded-xl md:h-136 h-136 border-e-0 border-b-0 border border-l-amber-200  border-t-amber-200   shadow-lg w-auto md:w-3xl overflow-auto  md:overflow-y-scroll no-scrollbar  border-stone-700 transform animate-scale-up transition-all duration-300">
         <div className="flex justify-between">
           <div>
           <h2 className="text-xl font-semibold text-yellow-400">{project.title}</h2>
@@ -121,7 +121,7 @@ const ProjectDetailsPopup = () => {
           </div>
         <button onClick={()=> setPopUp(false)}>{closeIcon}</button>
         </div>
-        <img src={project.image} className="md:h-80 h-fit md:w-auto w-80 m-4 rounded-lg" alt="" />
+        <img src={project.image} className="md:h-80 h-fit md:w-auto w-full ml-2 my-4 rounded-lg" alt="" />
         <h3 className="mt-2 m-2 font-medium text-white">Techlonogies used:</h3>
         <div className="flex gap-3 ml-2 flex-wrap ">
           {project.techStack.map((tech, index) => (
