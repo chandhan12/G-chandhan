@@ -7,6 +7,7 @@ import ProjectDetailsPopup from '../components/ProjectDetailsPopup'
 const myprojects=[
   {
     title:"Nestly",
+    caption:"Find Your Perfect Home with Ease",
     image:Nestly,
     liveLink:"djb",
     githubLink:"uhhax",
@@ -15,6 +16,7 @@ const myprojects=[
   },
   {
     title:"Brain Vault",
+    caption:"Your Digital Brain for Everything Important",
     image:BrainVaultImg,
     liveLink:"djb",
     githubLink:"uhhax",
@@ -23,6 +25,7 @@ const myprojects=[
   },
   {
     title:"Nova pay",
+    caption:"Your Gateway to Seamless Transactions",
     image:Nestly,
     liveLink:"djb",
     githubLink:"uhhax",
@@ -31,6 +34,7 @@ const myprojects=[
   },
   {
     title:"Course selling App",
+    caption:"Backend for a course selling app",
     image:Nestly,
     liveLink:"djb",
     githubLink:"uhhax",
@@ -39,6 +43,7 @@ const myprojects=[
   },
   {
     title:"Responsive dashboard",
+    caption:"Frontend project",
     image:Nestly,
     liveLink:"djb",
     githubLink:"uhhax",
