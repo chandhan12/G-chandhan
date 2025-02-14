@@ -1,7 +1,7 @@
 import React from 'react'
 import profilepic from '../assets/photos/prophoto.jpg'
 import { GithubIcon, leetcodeIcon, LinkedinIcon, locationIcon, message, phoneIcon, ResumeIcon, twitterIcon } from '../Icons/Icons'
-import SidebarItem from './sidebarItem'
+
 
 
 
@@ -19,9 +19,23 @@ const Sidebar = () => {
      </div>
      <p className='bg-stone-500 h-0.5 md:w-56 w-72 rounded-2xl'></p>
      <div className='mt-5'>
-     <SidebarItem icon={message} text="chandhan.g0401@gmail.com"/>
-     <SidebarItem icon={phoneIcon} text="+91-9398641656"/>
-     <SidebarItem icon={locationIcon} text="Bengaluru,Karnataka"/>
+    
+     <div className='flex p-2 '>
+            <p className='text-yellow-500 text-2xl font-semibold m-1'>{message} </p>
+            <p className='text-stone-200 text-base m-1'>chandhan.g0401@gmail.com</p>
+            
+         </div>
+         <div className='flex p-2 '>
+            <p className='text-yellow-500 text-2xl font-semibold m-1'>{phoneIcon} </p>
+            <p className='text-stone-200 text-base m-1'>+91-9398641656</p>
+            
+         </div>
+         <div className='flex p-2 '>
+            <p className='text-yellow-500 text-2xl font-semibold m-1'>{locationIcon} </p>
+            <p className='text-stone-200 text-base m-1'>Bengaluru,Karnataka</p>
+            
+         </div>
+    
      </div>
      <div className='separator'></div>
      <div className='flex p-2 flex-wrap '>
