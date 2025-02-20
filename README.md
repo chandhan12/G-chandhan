@@ -1,2 +1,2 @@
 # My portofolio
-Built in react
+Built in React
