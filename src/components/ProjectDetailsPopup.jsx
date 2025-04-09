@@ -3,6 +3,7 @@ import { ProjectContext } from "./ProjectContextProvider";
 import Nestly from '../assets/photos/Nestly.png'
 import BrainVaultImg from '../assets/photos/BrainVault.png'
 import Novapay from '../assets/photos/Novapay.png'
+import Startupathon from '../assets/photos/Startupathon.png'
 import CourseSellingApp from '../assets/photos/CourseSellingApp.png'
 import ResponsiveDashboard from '../assets/photos/ResponsiveDashboard.png'
 import { closeIcon, GithubIcon, liveLinkIcon, liveLinkIcon2 } from "../Icons/Icons";
@@ -12,6 +13,26 @@ const ProjectDetailsPopup = () => {
 
  
   const projects = [
+
+        {
+          title: "Persist-Startupathon",
+          caption: "An assignment for a company (got offer) for a Full-Stack Developer role (Not Responsive)", 
+          image: Startupathon,
+          liveLink: "https://persist-startupathon-delta.vercel.app/",
+          githubLink: "https://github.com/chandhan12/Persist-Startupathon.git",
+          description1: `This is a complete recreation of the official Persist-Startupathon website, given as an assignment for a Full-Stack Developer role. 
+          I successfully completed the assignment and received an offer from the company. 
+          The task was to build an admin dashboard (frontend and backend) where the admin can add new challenges, change their visibility status, and delete challenges.`,
+          
+          description2: `The admin can also add completers of a challenge to the homepage from the dashboard and manage (add/delete) founders through the same interface.
+          A complete full-stack application with a pixel-perfect frontend designed from a Figma file, which helped me secure an offer from the company.`,
+          
+          description3: `Note: This application was developed specifically for the selection process and is optimized only for desktop view. It is not responsive on smaller screen sizes.
+          `,
+         
+          techStack: ["React", "Node.js", "Express", "MongoDB", "Framer Motion", "Tailwind CSS"]
+        },
+
       {
         title:"Nestly",
         caption:"Find Your Perfect Home with Ease",
